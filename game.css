@@ -1,0 +1,96 @@
+*{
+    font-family: Roboto, "sans-serf";
+    padding: 0;
+    margin:0;
+}
+nav{
+    background-color: black;
+    color: white;
+    height: 70px;
+    align-items: center;
+    display: flex;
+    padding: 0 15px;
+}
+nav ul{
+    list-style: none;
+}
+h2{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 90vh;
+}
+
+.layout{
+   
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    /* background-color: aqua; */
+    padding: 50px;
+    
+}
+.block1{
+    border: 2px solid  black;
+    
+   
+}
+.bl {
+    border-left: 0;
+}
+
+.br {
+    border-right: 0;
+}
+
+.bt {
+    border-top: 0;
+}
+
+.bb {
+    border-bottom: 0;
+}
+.block1{
+    font-size: 5vw;
+    font-weight:500;
+    text-align: center;
+    padding-top: 2vw;
+    cursor:default;
+    
+}
+.block1:hover{
+    background-color: rgba(240, 228, 228, 0.589);
+
+    /* box-shadow: 5px 6px 8px rgba(195, 114, 114, 0.155); */
+}
+.gameinfo{
+    height: 2vw;
+    width: 51vw;
+}
+.info{
+    /* background-color: sienna; */
+    margin-left: 10px;
+    padding: 50px;
+
+}
+.playerinfo{
+    margin-top: 5vw;
+}
+button{
+    margin-top: 15vw;
+    margin-left: 10vw;
+    border-radius: 6px;
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    background-color: aliceblue;
+    cursor: pointer;
+}
+.turninfo{
+    background-color: aquamarine;
+    font-size: 30px;
+}
+
